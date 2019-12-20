@@ -3,7 +3,7 @@
 ## Steps to follow / Roadmap for the project
 
 * Get the data
-    - Daily Air quality data for all months (on day to day basis) for the past 5 years.
+    - <strike>Daily Air quality data for all months (on day to day basis) for the past 5 years.</strike>
     - Get PM2.5 values too.
 * Research about the key factors for determining the PM2.5 Values.
     - Accordingly remove the unwanted features from the dataset.

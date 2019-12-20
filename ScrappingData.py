@@ -9,7 +9,7 @@ months = ["%02d"%x for x in range(1, 13)]
 
 for year in years:
     for month in months:
-        file_html = open('Data/Html_Data/2015/07.html'.format(year,month), 'rb')
+        file_html = open('Data/Html_Data/{}/{}.html'.format(year,month), 'rb')
         plain_text = file_html.read()
 
         soup = BeautifulSoup(plain_text, 'lxml')
